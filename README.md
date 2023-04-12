@@ -1,8 +1,8 @@
 <h2 align="center">
-  <a href="https://silly-belekoy-162c3c.netlify.app/" target="_blank">Becky's Gift</a>
+  <a href="https://fantastic-cassata-bba0d6.netlify.app" target="_blank">Becky's Gift</a>
 </h2>
 
-![UrbanGardenCR](/src/assets/page/readme.png)
+![BeckysGift](/src/assets/page/readme.png)
 
 
 ## Built With
