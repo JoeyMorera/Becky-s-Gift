@@ -7,7 +7,7 @@ const Nosotros = () => {
       <div className='pt-16 xl:pt-28 xl:px-20 bg-[#f8f8f8] '>
         <div className='flex justify-center'>
           <p className='text-center text-5xl font-bold  pb-4 pt-10 px-10 text-black 
-                      border-t-4 border-l-4 border-[#FF98A4] ' id='contacto'>Nosotros</p>
+                      border-t-4 border-l-4 border-[#FF98A4] ' id='nosotros'>Nosotros</p>
         </div>
         <div className='xl:flex py-20'>
           <div className='xl:px-80'>

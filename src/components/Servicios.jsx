@@ -15,7 +15,7 @@ const Servicios = () => {
     <div className='pt-16 2xl:pt-28 2xl:px-20 bg-[#FF98A4]'>
       <div className='flex justify-center'>
         <p className='text-center text-5xl font-bold  pb-4 pt-10 px-10 text-black 
-                      border-r-4 border-b-4 border-white ' id='contacto'>Servicios</p>
+                      border-r-4 border-b-4 border-white ' id='servicios'>Servicios</p>
       </div>
       <div className='flex justify-center'>
         <div>

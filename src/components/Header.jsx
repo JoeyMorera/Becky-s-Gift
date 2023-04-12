@@ -16,7 +16,7 @@ const Header = () => {
                             text-xl md:text-2xl text-center '>
                             <li className="py-1 md:py-0 md:px-10  hover:text-[#FF98A4]"><a href="#nosotros">NOSOTROS</a></li>
                             <li className="py-1 md:py-0 md:px-10   hover:text-[#FF98A4]"><a href="#servicios">SERVICIOS</a></li>
-                            <li className="py-1 md:py-0 md:px-10  hover:text-[#FF98A4]"><a href="#contacto">CONTACTO</a></li>
+                            <li className="py-1 md:py-0 md:px-10  hover:text-[#FF98A4]"><a href="#opiniones">OPINIONES</a></li>
                         </ul>
                     </div>
                 </div>
