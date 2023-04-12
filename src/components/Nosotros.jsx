@@ -1,4 +1,5 @@
 import React from 'react'
+import nosotros from '../../src/assets/page/flores.png'
 
 const Nosotros = () => {
   return (
@@ -14,7 +15,7 @@ const Nosotros = () => {
               Bienvenidos a Becky's Gift, donde nos apasiona crear regalos personalizados que lleguen al corazón y la mente de nuestros clientes. Nos enorgullece ofrecer una amplia gama de productos únicos y personalizables para cada ocasión, desde cumpleaños hasta bodas y todo lo demás. Nuestro objetivo es hacer que cada regalo sea especial y significativo para el destinatario, y trabajamos diligentemente para asegurarnos de que cada detalle sea perfecto. <br /> <br />  <b> ¡Gracias por elegir Becky's Gift para sus necesidades de regalos personalizados!</b>
             </p>
             <div className='flex justify-center'>
-              <img src="../../src/assets/page/flores.png" alt="nosotros" className='w-40 xl:w-60 ' />
+              <img src={nosotros} alt="nosotros" className='w-40 xl:w-60 ' />
             </div>
           </div>
         </div>

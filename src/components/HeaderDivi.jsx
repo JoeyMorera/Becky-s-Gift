@@ -1,9 +1,10 @@
 import React from 'react'
+import divider from '../../src/assets/page/herodivider.png'
 
 const HeaderDivi = () => {
     return (
         <div>
-            <img src="../../src/assets/page/herodivider.png" alt="" className='h-40 object-fill w-full' />
+            <img src={divider} alt="" className='h-40 object-fill w-full' />
         </div>
     )
 }

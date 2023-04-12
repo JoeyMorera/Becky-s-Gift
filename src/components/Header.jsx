@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../src/assets/page/logo.jpg'
 
 const Header = () => {
 
@@ -7,7 +8,7 @@ const Header = () => {
             <header className='w-full inline-block justify-center items-center  text-white h-screen background '>
                 <div className='bg-black'>
                     <div className='w-full flex justify-center py-2 lg:py-7'>
-                        <img src="../../src/assets/page/logo.jpg" alt="logo" className='w-52 ' />
+                        <img src={logo} alt="logo" className='w-52 ' />
                     </div>
                     <hr className='border-[#FF98A4] mb-10 mx-6 xl:mx-20 border-dashed border-t-2 lg:border-t-4' />
                     <div className="flex justify-around items-center pb-4 md:pb-16">

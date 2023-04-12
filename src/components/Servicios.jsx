@@ -1,4 +1,14 @@
 import React from 'react'
+import producto1 from '../../src/assets/products/aniversario1.png'
+import producto2 from '../../src/assets/products/aniversario2.png'
+import producto3 from '../../src/assets/products/cumple1.png'
+import producto4 from '../../src/assets/products/cumple2.png'
+import producto5 from '../../src/assets/products/graduacion1.png'
+import producto6 from '../../src/assets/products/graduacion2.png'
+import producto7 from '../../src/assets/products/madre1.png'
+import producto8 from '../../src/assets/products/madre2.png'
+import producto9 from '../../src/assets/products/padre1.png'
+import producto10 from '../../src/assets/products/padre2.png'
 
 const Servicios = () => {
   return (
@@ -14,18 +24,18 @@ const Servicios = () => {
               <p className='text-xl xl:text-3xl'> Día de la madre</p>
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80 shadow-lg shadow-black'>
-              <img src="../../src/assets/products/madre1.png" alt="producto" />
+              <img src={producto7} alt="producto" />
             </div>
             <div className='hidden md:flex md:visible w-40 h-40 xl:w-80 xl:h-80 shadow-lg shadow-black'>
-              <img src="../../src/assets/products/madre2.png" alt="producto" />
+              <img src={producto8} alt="producto" />
             </div>
 
 
             <div className='hidden md:flex md:visible w-40 h-40 xl:w-80 xl:h-80 shadow-lg shadow-black'>
-              <img src="../../src/assets/products/aniversario1.png" alt="producto" />
+              <img src={producto1} alt="producto" />
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80 shadow-lg shadow-black'>
-              <img src="../../src/assets/products/aniversario2.png" alt="producto" />
+              <img src={producto2} alt="producto" />
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80 border-dotted border-8 border-[#f8f8f8] flex justify-center items-center'>
               <p className='text-xl xl:text-3xl'> Aniversarios</p>
@@ -35,17 +45,17 @@ const Servicios = () => {
               <p className='text-xl xl:text-3xl'> Día del padre</p>
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80  shadow-lg shadow-black'>
-              <img src="../../src/assets/products/padre1.png" alt="producto" />
+              <img src={producto9} alt="producto" />
             </div>
             <div className=' hidden md:flex md:visible w-40 h-40 xl:w-80 xl:h-80  shadow-lg shadow-black'>
-              <img src="../../src/assets/products/padre2.png" alt="producto" />
+              <img src={producto10} alt="producto" />
             </div>
 
             <div className='hidden md:flex md:visible w-40 h-40 xl:w-80 xl:h-80  shadow-lg shadow-black'>
-              <img src="../../src/assets/products/cumple1.png" alt="producto" />
+              <img src={producto3} alt="producto" />
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80  shadow-lg shadow-black'>
-              <img src="../../src/assets/products/cumple2.png" alt="producto" />
+              <img src={producto4} alt="producto" />
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80  border-dotted border-8 border-[#f8f8f8] flex justify-center items-center'>
               <p className='text-xl xl:text-3xl'> Cumpleaños</p>
@@ -55,10 +65,10 @@ const Servicios = () => {
               <p className='text-xl xl:text-3xl'> Graduaciones</p>
             </div>
             <div className='w-40 h-40 xl:w-80 xl:h-80  shadow-lg shadow-black'>
-              <img src="../../src/assets/products/graduacion1.png" alt="producto" />
+              <img src={producto5} alt="producto" />
             </div>
             <div className=' hidden md:flex md:visible w-40 h-40 xl:w-80 xl:h-80  shadow-lg shadow-black'>
-              <img src="../../src/assets/products/graduacion2.png" alt="producto" />
+              <img src={producto6} alt="producto" />
             </div>
           </div>
         </div>
